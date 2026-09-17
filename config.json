@@ -1,0 +1,50 @@
+{
+    "port_name": "loopMIDI Port 1",
+    "cc_channel": 0,
+    "step": 1,
+    "key_turn_left": "<255>",
+    "key_turn_right": "<235>",
+    "key_press": "<193>",
+    "knobs": [
+        {
+            "name": "Основная громкость",
+            "cc_control": 7,
+            "initial_value": 64,
+            "step": 1,
+            "map_in_min": 0,
+            "map_in_max": 127,
+            "map_out_min": 0,
+            "map_out_max": 100
+        },
+        {
+            "name": "Колонки Вкл/Викл",
+            "cc_control": 8,
+            "initial_value": 0,
+            "step": 172,
+            "map_in_min": 0,
+            "map_in_max": 127,
+            "map_out_min": 0,
+            "map_out_max": 1
+        },
+        {
+            "name": "Микрофон",
+            "cc_control": 9,
+            "initial_value": 64,
+            "step": 3,
+            "map_in_min": 0,
+            "map_in_max": 127,
+            "map_out_min": 0,
+            "map_out_max": 100
+        },
+        {
+            "name": "Pitch",
+            "cc_control": 10,
+            "initial_value": 64,
+            "step": 1,
+            "map_in_min": 0,
+            "map_in_max": 127,
+            "map_out_min": -12,
+            "map_out_max": 12
+        }
+    ]
+}
