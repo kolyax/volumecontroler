@@ -17,16 +17,6 @@
             "map_out_max": 100
         },
         {
-            "name": "Колонки Вкл/Викл",
-            "cc_control": 8,
-            "initial_value": 0,
-            "step": 172,
-            "map_in_min": 0,
-            "map_in_max": 127,
-            "map_out_min": 0,
-            "map_out_max": 1
-        },
-        {
             "name": "Микрофон",
             "cc_control": 9,
             "initial_value": 64,
@@ -43,8 +33,65 @@
             "step": 1,
             "map_in_min": 0,
             "map_in_max": 127,
-            "map_out_min": -12,
-            "map_out_max": 12
+            "map_out_min": 0,
+            "map_out_max": 100
+        },
+        {
+            "name": "Звонок",
+            "cc_control": 19,
+            "initial_value": 64,
+            "step": 1,
+            "map_in_min": 0,
+            "map_in_max": 127,
+            "map_out_min": 0,
+            "map_out_max": 100
+        },
+        {
+            "name": "Музика",
+            "cc_control": 127,
+            "initial_value": 64,
+            "step": 1,
+            "map_in_min": 0,
+            "map_in_max": 127,
+            "map_out_min": 0,
+            "map_out_max": 100
+        }
+    ],
+    "switches": [
+        {
+            "name": "звук системи в микро",
+            "cc_control": 12,
+            "state": false,
+            "val_on": 91,
+            "val_off": 0
+        },
+        {
+            "name": "музика в микро",
+            "cc_control": 13,
+            "state": true,
+            "val_on": 91,
+            "val_off": 0
+        },
+        {
+            "name": "Колонки",
+            "cc_control": 8,
+            "state": false,
+            "val_on": 91,
+            "val_off": 0
+        },
+        {
+            "name": "звонок в колонки",
+            "cc_control": 82,
+            "state": false,
+            "val_on": 127,
+            "val_off": 0
+        },
+        {
+            "name": "звонок в наушники",
+            "cc_control": 83,
+            "state": false,
+            "val_on": 127,
+            "val_off": 0
         }
     ]
 }
