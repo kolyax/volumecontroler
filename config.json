@@ -62,36 +62,22 @@
             "name": "звук системи в микро",
             "cc_control": 12,
             "state": false,
-            "val_on": 91,
-            "val_off": 0
-        },
-        {
-            "name": "музика в микро",
-            "cc_control": 13,
-            "state": true,
-            "val_on": 91,
-            "val_off": 0
+            "val_on": 0,
+            "val_off": 91
         },
         {
             "name": "Колонки",
             "cc_control": 8,
             "state": false,
-            "val_on": 91,
-            "val_off": 0
+            "val_on": 0,
+            "val_off": 91
         },
         {
             "name": "звонок в колонки",
             "cc_control": 82,
             "state": false,
-            "val_on": 127,
-            "val_off": 0
-        },
-        {
-            "name": "звонок в наушники",
-            "cc_control": 83,
-            "state": false,
-            "val_on": 127,
-            "val_off": 0
+            "val_on": 0,
+            "val_off": 91
         }
     ]
 }
